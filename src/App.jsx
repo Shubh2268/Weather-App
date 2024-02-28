@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import hotBg from './assets/hot.jpg';
-import coldBg from './assets/cold.jpg';
+// import coldBg from './assets/cold.jpg';
+import Description from './components/Description';
 
 function App() {
 
@@ -28,6 +29,9 @@ function App() {
               <h1>24°C</h1>
             </div>
           </div>
+
+          {/* bottom description */}
+          <Description />
         </div>
 
       </div>
