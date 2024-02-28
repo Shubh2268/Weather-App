@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
+import hotBg from './assets/hot.jpg';
+import coldBg from './assets/cold.jpg';
 
 function App() {
 
+  const [bg, setBg] = useState(hotBg);
+
   return (
-    <div className='app'>
+    <div className='app' style={{ backgroundImage: `url(${bg})` }}>
 
       <div className='overlay'>
         <div className='container'>
