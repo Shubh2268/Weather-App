@@ -3,7 +3,7 @@
     --background-overlay: rgba(0, 0, 0, 0.2);
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -43,7 +43,8 @@
     color: white;
 }
 
-.section__inputs, .section__temprature {
+.section__inputs,
+.section__temprature {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -51,7 +52,9 @@
 }
 
 .section__inputs>input {
-    border: 0.8px solid white;
+    width: 60%;
+    text-transform: capitalize;
+    border: 0.5px solid white;
     border-radius: 0.4rem;
     background-color: transparent;
     color: white;
@@ -65,7 +68,7 @@
 }
 
 .section__inputs>button {
-    padding: 10px 50px;
+    padding: 10px 30px;
     border: none;
     border-radius: 0.4rem;
     font-size: 20px;
@@ -93,4 +96,78 @@
 
 .temprature>h1 {
     font-size: 60px;
+}
+
+@media screen and (max-width: 480px) {
+    .section__inputs>input {
+        text-transform: capitalize;
+        width: 75%;
+        border: 0.8px solid white;
+        border-radius: 0.4rem;
+        background-color: transparent;
+        color: white;
+        padding: 0.5rem;
+        font-size: 10px;
+        font-weight: 200;
+    }
+
+    .section__inputs>input:focus {
+        outline: none;
+    }
+
+    .section__inputs>button {
+        padding: 6px 15px;
+        border: none;
+        border-radius: 0.4rem;
+        font-size: 15px;
+        font-weight: 600;
+        background-color: white;
+    }
+
+    .icon>h3 {
+        font-size: 10px;
+        font-weight: 200;
+        text-transform: capitalize;
+    }
+    
+    .temprature>h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .section__inputs>input {
+        text-transform: capitalize;
+        width: 75%;
+        border: 0.8px solid white;
+        border-radius: 0.4rem;
+        background-color: transparent;
+        color: white;
+        padding: 0.5rem;
+        font-size: 10px;
+        font-weight: 200;
+    }
+
+    .section__inputs>input:focus {
+        outline: none;
+    }
+
+    .section__inputs>button {
+        padding: 6px 15px;
+        border: none;
+        border-radius: 0.4rem;
+        font-size: 15px;
+        font-weight: 600;
+        background-color: white;
+    }
+
+    .icon>h3 {
+        font-size: 10px;
+        font-weight: 200;
+        text-transform: capitalize;
+    }
+    
+    .temprature>h1 {
+        font-size: 40px;
+    }
 }
