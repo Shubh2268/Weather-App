@@ -35,13 +35,11 @@ Weather App is a web-app for providing weather details of your city, anywhere si
 
 ## <a name="features">🔋 Features</a>
 
-👉 **Beautiful Sections**: Includes home, exercise results, exercise details, and footer.
+👉 **Beautiful Sections**: Includes search bar, weather details and temperature with dynamic background.
 
-👉 **UI Geometry**: Utilizes tailwindcss for intricate shapes like cards, grid lines, and side lines.
+👉 **UI Geometry**: Utilizes css for intricate different sections.
 
-👉 **Latest UI Trends**: Incorporates modern design elements such as smooth scrolling and horizontal scrolling.
-
-👉 **Cool Gradients**: Enhances visuals with stylish gradients using Tailwind CSS for background, buttons, etc.
+👉 **Latest UI Trends**: Incorporates modern design elements such as dynamic background.
 
 👉 **Responsive**: Ensures seamless functionality and aesthetics across all devices
 
