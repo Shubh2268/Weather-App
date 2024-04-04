@@ -32,6 +32,7 @@
 - Vite
 - React.Js
 - Tailwind CSS
+- OpenWeather API
 
 ## <a name="features">🔋 Features</a>
 
