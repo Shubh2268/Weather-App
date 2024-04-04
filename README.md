@@ -25,13 +25,12 @@
 
 ## <a name="introduction">🤖 Introduction</a>
 
-
+Weather App is a web-app for providing weather details of your city, anywhere situated in the world. Experience the world’s weather at your fingertips. this web-app provides comprehensive weather details for any city globally, no matter where you are, just search your city and press enter, you will get the weather details of your city.
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
 - Vite
 - React.Js
-- Tailwind CSS
 - OpenWeather API
 
 ## <a name="features">🔋 Features</a>
