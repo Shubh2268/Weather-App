@@ -1,7 +1,7 @@
 <div align="center">
   <br />
     <a href="https://weather-app-2-0.netlify.app" target="_blank">
-      <img src="https://imagetolink.com/ib/ir6yb06Rbj.png" alt="weather-app">
+      <img src="https://tools.corenexis.com/image/cnxm/Q24/12/703a1ffe32.webp" alt="weather-app">
     </a>
   <br />
 
