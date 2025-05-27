@@ -10,7 +10,7 @@
     <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
   </div>
 
-  <h3 align="center">Modern UI/UX Website</h3>
+  <h3 align="center">Weather App</h3>
 </div>
 
 
